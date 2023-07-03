@@ -229,7 +229,45 @@ git push -u origin <your_branch_name>
 
 ![iwoc](https://user-images.githubusercontent.com/108119109/219447750-c45f57d6-c9b7-4648-a287-f98e6a256e7b.png)
 
+
+## 🚩 Steps To Start The Project 🚩
+
+
+### step-1: Install Docker Desktop
+Install Docker Desktop from [this link](https://www.docker.com/products/docker-desktop/)
+
+### step-2: Setup Docker Desktop
+Follow the official documentation to set up Docker Desktop according to your respective platform. You can find the documentation [here](https://docs.docker.com/desktop/install/windows-install/)
+
+### step-3: Open Termial
+Open your terminal/cmd for Windows or zsh terminal for Mac. If you want to customize your terminal on Windows, you can download Windows Terminal.
+
+### step-4: Start Docker Engine
+Open Docker Desktop and wait a few minutes for the Docker engine to start.
+
+### step-5: Check Docker Engine
+Go to your terminal and type the below command to check whether the engine has started or not. If it hasn't started, restart Docker Desktop.
+```css
+docker version
+```
+
+### step-6: Navigate the Porject Directory  ane Build the Docker Imagae
+Change the directory to project Directory and type 
+```css
+docker build -t "tag name"
+```
+
+### step-7: Start the Project
+Excute the below command and boom the project is running 👍
+ ```css
+docker compose up
+``` 
+
+### if you use new library then don't forget to update the "requirement.txt" file
+
+step-7 : 
 <a name="contributors"></a>
+
 
 ## Thanks to all Contributors 💪
 
@@ -240,5 +278,6 @@ Thanks a lot for spending your time helping this project grow. Thanks a lot! Kee
 
 <p align ="right"><a href = "#top">Back to top</a></p>
 </div>
+
 
 # Made with ❤ by [Pranjal Agarwal](https://github.com/Pranjal360Agarwal).
